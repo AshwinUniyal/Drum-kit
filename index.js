@@ -1,12 +1,3 @@
-//alert box
-
-var alerted = sessionStorage.getItem('alerted') || '';
-    if (alerted != 'yes') {
-     alert("Haan maine hi banaya hai 😤, Dekhle ab Nimmi 💃 \n ~Ash ");
-     sessionStorage.setItem('alerted','yes');
-     }
-
-
 //DETECTING BUTTON PRESS
 
 var numberOfButtons=document.querySelectorAll(".drum").length;
